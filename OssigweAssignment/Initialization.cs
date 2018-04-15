@@ -9,14 +9,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace OssigweAssignment
+namespace sweProject
 {
 
     public class Initialization
     {
-        const string pathForSavedFolder = @"C:\Users\Emmanuel\Desktop\TestFolderForFiles\Json.json";
-        const string pathForSaveFile = @"C:\Users\Emmanuel\Desktop\TestFolderForFiles\savedWords.json";
-        const string PathForBinary = @"C:\Users\Emmanuel\Desktop\TestFolderForFiles\binary.bin";
+        const string pathForSavedFolder = @"C:\Users\Chris\Source\Repos\dbsproject4\Json.json";
+        const string pathForSaveFile = @"C:\Users\Chris\Source\Repos\dbsproject4\savedWords.json";
+        const string PathForBinary = @"C:\Users\Chris\Source\Repos\dbsproject4\binary.bin";
         DirectoryInfo DirectoryInfo;
         Folder folder;
         Files file;
@@ -188,7 +188,7 @@ namespace OssigweAssignment
                 var newFileFromBinary = BR.ReadString();
                 var newJsonObject = JsonConvert.DeserializeObject<List<Folder>>(newFileFromBinary);
                 var jsonToAddAgainForTest = JsonConvert.SerializeObject(newJsonObject);
-                File.WriteAllText(@"C:\Users\Emmanuel\Desktop\TestFolderForFiles\temp.json", jsonToAddAgainForTest);
+                File.WriteAllText(@"C:\Users\Chris\Source\Repos\dbsproject4\temp.json", jsonToAddAgainForTest);
             };
             JArray jsonObject = JArray.Parse(AllText);
 

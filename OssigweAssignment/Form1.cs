@@ -13,14 +13,14 @@ using System.Dynamic;
 using Newtonsoft.Json.Linq;
 using System.Security.AccessControl;
 
-namespace OssigweAssignment
+namespace sweProject
 {
     public partial class Form1 : Form
     {
         Initialization init = new Initialization(new Folder(), new Files(), new JsonSerializer());
-        const string pathForSaveFolder = @"C:\Users\Emmanuel\Desktop\TestFolderForFiles\Json.json";
-        const string pathForSaveFile = @"C:\Users\Emmanuel\Desktop\TestFolderForFiles\savedWords.json";
-        const string PathForBinary = @"C:\Users\Emmanuel\Desktop\TestFolderForFiles\binary.bin";
+        const string pathForSaveFolder = @"C:\Users\Chris\Source\Repos\dbsproject4\Json.json";
+        const string pathForSaveFile = @"C:\Users\Chris\Source\Repos\dbsproject4\savedWords.json";
+        const string PathForBinary = @"C:\Users\Chris\Source\Repos\dbsproject4\binary.bin";
 
         public Form1()
         {
@@ -36,6 +36,7 @@ namespace OssigweAssignment
             var FoldersToSearch = init.GetSavedFoldersFromFile(pathForSaveFolder);
             if (FoldersToSearch != null)
             {
+
                 if (Directory.Exists(FoldersToSearch[0].FolderName))
                 {
                     var result = init.SearchWordFromSavedFiles(this.textReader, this.textBox1, FoldersToSearch, this);

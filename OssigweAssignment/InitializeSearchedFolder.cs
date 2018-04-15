@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace OssigweAssignment
+namespace sweProject
 {
     public class InitializeSearchedFolder
     {

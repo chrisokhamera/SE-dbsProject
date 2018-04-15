@@ -1,4 +1,4 @@
-﻿namespace OssigweAssignment
+﻿namespace sweProject
 {
     partial class Form1
     {

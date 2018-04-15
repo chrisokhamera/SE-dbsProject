@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OssigweAssignment", "OssigweAssignment\OssigweAssignment.csproj", "{D27F8CAE-8B63-46C4-B29C-AB4F6B9B56EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sweProject", "OssigweAssignment\sweProject.csproj", "{D27F8CAE-8B63-46C4-B29C-AB4F6B9B56EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C459A7E-0B5D-4DCA-8148-F6EB6C5310A4}
 	EndGlobalSection
 EndGlobal
